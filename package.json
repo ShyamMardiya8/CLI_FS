@@ -1,0 +1,20 @@
+{
+  "name": "node-js-25-04",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "bin": {
+    "tran": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.14"
+  }
+}
