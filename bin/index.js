@@ -66,7 +66,7 @@ rl.question("\nEnter option number: ", (answer) => {
       });
     }
     if (options[selectedIndex] === "delete") {
-      fs.unlink(filePath, (err) => {
+      fs.unlink(filePath, (err) => { 
         if (err) throw err;
         console.log("file deleted successfully");
       });
